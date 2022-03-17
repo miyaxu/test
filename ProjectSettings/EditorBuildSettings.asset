@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/JavascriptInteract/Scenes/GameScene.unity
+    guid: 3ca0c7b5a7e55c14896916ea9296c34e
+  - enabled: 1
+    path: Assets/JavascriptInteract/Scenes/GameScene_Graph.unity
+    guid: 72dd688ee26134451aa631def88f4b33
+  m_configObjects: {}
