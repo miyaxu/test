@@ -1,0 +1,17 @@
+<div>
+  <button onclick="app.SendMessage('JavascriptHook', 'TintRed')">red</button>
+  <button onclick="app.SendMessage('JavascriptHook', 'TintGreen')">green</button>
+  <button onclick="app.SendMessage('JavascriptHook', 'SetNumber', 9487)">set n</button>
+  <button onclick="app.SendMessage('JavascriptHook', 'SetString', 'GGGGG')">set s</button>  
+</div>
+
+.then((app) => {
+        console.log(app);
+        window['app'] = app;
+      });
+
+
+
+      setTimeout(() => {
+        console.log('123', app);
+      }, 1000);
